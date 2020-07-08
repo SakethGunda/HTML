@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  /* margin: 50px auto 0 auto */
+  margin-top: -20px;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Monsterrat', sans-serif;
+  font-size: 25px;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: None;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  font-family: 'Monsterrat', sans-serif;
+  font-size: 20px;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Monsterrat', sans-serif;
+  color: #11999E;
+  font-size: 1.5rem
+}
+
+a{
+  color: #11999E;
+  font-family: 'Monsterrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 400px
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.Get-in-Touch {
+  font-size: 45px;
+  font-family: 'Monsterrat', sans-serif;
+}
+
+.contact-message {
+  margin: auto;
+  width: 30%;
+}
+
+.spongebob {
+  height: 150px;
+  width: 150px;
+}
+
+.fencing {
+  /* height: 150px; */
+  /* width: 150px; */
+  width: 17%;
+  float: right;
+  margin-left: 30px;
+  /* border-radius: 50%; */
+  /* background-color: black; */
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 500px;
+}
+
+.code {
+  width: 17%;
+  float: left;
+  margin-right: 30px;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  font-family: 'Monsterrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 15px;
+  box-shadow: 1px 1px 20px ;
+  -webkit-box-shadow: 1px 1px 20px ;
+  -moz-box-shadow: 1px 1px 20px ;
+  text-shadow: 1px 1px 20px ;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
